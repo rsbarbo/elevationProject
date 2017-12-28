@@ -6,12 +6,12 @@ elevation on the top of the list.
 
 #### The Criteria
 
-● The code should expose a function that would take in an array of strings as the input.
-● This function should then geocode the provided array of strings using the Google
+* The code should expose a function that would take in an array of strings as the input.
+* This function should then geocode the provided array of strings using the Google
 Geocode API.
-● Using the latitude and longitude from the geocoding process, find the elevation of the
+* Using the latitude and longitude from the geocoding process, find the elevation of the
 addresses.
-● Finally, sorted the addresses in descending order (highest on the top) of their elevations, and
+* Finally, sorted the addresses in descending order (highest on the top) of their elevations, and
 returned an array of addresses and elevations in that order. The sorting of the array was performed manually by
 using a bubble sort algorithm since it was required that no built in methods such as array.sort(), or
 array.min() should be used.
