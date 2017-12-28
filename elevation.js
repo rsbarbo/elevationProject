@@ -86,3 +86,11 @@ function nextCallToGetElevation(firstResponse) {
 function buildUnsortedArray(tempKey, tempElevation) {
     return tempKey + " - " + tempElevation;
 };
+
+function extractElevationAsFlot(addressElevation) {
+    return parseFloat(addressElevation.split('-')[1], 2);
+};
+
+function extractAddressAsString(addressElevation) {
+    return addressElevation.split('-')[0];
+};
