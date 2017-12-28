@@ -18,10 +18,12 @@ array.min() should be used.
 
 #### Getting Started with the Project
 
-* Please generate API keys for the Google Geocoding and Elevation APIs, here are the links:
+* Please generate* API keys for the Google Geocoding and Elevation APIs, here are the links:
 
 1. [Get​ ​a​ ​Google​ ​API​ ​key​ ​for​ ​Geocoding](https://developers.google.com/maps/documentation/geocoding/start#get-a-key)
 2. [Get​ ​a​ ​Google​ ​API​ ​key​ ​for​ ​Elevation](https://developers.google.com/maps/documentation/elevation/start#get-a-key)
+
+**Important Info** I have already included a test key in the code that you can use for this app testing purposes, I have decided to leave the keys their since they are linked to a testing account and will be revoked within 15 days.
 
 * Clone the repository `git clone https://github.com/rsbarbo/elevationProject`
 * I am using a Promise based HTTP client called [axios](https://github.com/axios/axios) to perform API calls,
