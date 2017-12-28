@@ -31,7 +31,7 @@ so please make sure to install the package by running `npm install axios` (depen
 `sudo npm install axios`)
 * Once you are CDed into the directory in your local machine, please run the command `node elevation.js` and you will an output on the terminal as the following:
 
-```
+```JS
 [ '1599 Ski Hill Rd, Breckenridge, CO 80424, USA ',
   3031.680419921875,
   '601 E Dean St, Aspen, CO 81611, USA ',
@@ -48,7 +48,7 @@ so please make sure to install the package by running `npm install axios` (depen
 
 The initial function takes in an array of address as shown below:
 
-```
+```JS
 const arrayOfAddresses = [
     '1675 Larimer St, Denver, CO',
     '630 Williams St NW, Atlanta, GA',
@@ -60,7 +60,7 @@ const arrayOfAddresses = [
 
 The file gets kicked off by a function called `stater(arrayOfAddresses);` that takes in an array of addresses.
 
-```
+```JS
 function stater(arrayOfAddresses) {
   const addrPromises = arrayOfAddresses
     .map(addr => intialCallToGetLatitute(addr));
@@ -84,7 +84,7 @@ function stater(arrayOfAddresses) {
 
 The interesting part of the project was definitely the sorting approach to build the final array, here is the function used for this approach:
 
-```
+```JS
 function sortList(arrayOfAddress) {
     const newObject = {};
 
