@@ -23,7 +23,7 @@ array.min() should be used.
 1. [Get​ ​a​ ​Google​ ​API​ ​key​ ​for​ ​Geocoding](https://developers.google.com/maps/documentation/geocoding/start#get-a-key)
 2. [Get​ ​a​ ​Google​ ​API​ ​key​ ​for​ ​Elevation](https://developers.google.com/maps/documentation/elevation/start#get-a-key)
 
-**Important Info** I have already included a test key in the code that you can use for this app testing purposes, I have decided to leave the keys their since they are linked to a testing account and will be revoked within 15 days.
+**Important Info** I have already included a test key in the code that you can use for this application testing purposes, I have decided to leave the keys there since they are linked to a testing account and will be revoked within 15 days.
 
 * Clone the repository `git clone https://github.com/rsbarbo/elevationProject`
 * I am using a Promise based HTTP client called [axios](https://github.com/axios/axios) to perform API calls,
@@ -31,7 +31,7 @@ so please make sure to install the package by running `npm install axios` (depen
 `sudo npm install axios`)
 * Once you are CDed into the directory in your local machine, please run the command `node elevation.js` and you will an output on the terminal as the following:
 
-```JS
+`evet
 [ '1599 Ski Hill Rd, Breckenridge, CO 80424, USA ',
   3031.680419921875,
   '601 E Dean St, Aspen, CO 81611, USA ',
